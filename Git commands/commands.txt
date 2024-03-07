@@ -1,0 +1,67 @@
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Week6/
+        week4/
+
+nothing added to commit but untracked files present (use "git add" to track)
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git add .
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Week6/Thread1.class
+        new file:   Week6/Thread1.java
+        new file:   week4/Building.class
+        new file:   week4/Demonstration.class
+        new file:   week4/Demonstration.java
+        new file:   week4/Grade.class
+        new file:   week4/Grade.java
+        new file:   week4/Grader.class
+        new file:   week4/House.class
+
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git commit -m "Week4 and Week6 has been uploaded."
+[main 2d09d1a] Week4 and Week6 has been uploaded.
+ 9 files changed, 122 insertions(+)
+ create mode 100644 Week6/Thread1.class
+ create mode 100644 Week6/Thread1.java
+ create mode 100644 week4/Building.class
+ create mode 100644 week4/Demonstration.class
+ create mode 100644 week4/Demonstration.java
+ create mode 100644 week4/Grade.class
+ create mode 100644 week4/Grade.java
+ create mode 100644 week4/Grader.class
+ create mode 100644 week4/House.class
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git push
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 5.15 KiB | 2.58 MiB/s, done.
+Total 13 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Monalisa-24/Java_Assigment_Monalisa
+   1ed86d8..2d09d1a  main -> main
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git checkout
+Your branch is up to date with 'origin/main'.
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git checkout -b Nandini
+Switched to a new branch 'Nandini'
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (Nandini) $ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ 
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git commands/
+
+nothing added to commit but untracked files present (use "git add" to track)
+@Monalisa-24 ➜ /workspaces/Java_Assigment_Monalisa (main) $ git add "Git commands/"
